@@ -30,7 +30,7 @@ module.exports = (sequelize, DataTypes) => {
         },
         profession: {
             type: DataTypes.STRING,
-            allowNull: false,
+            allowNull: true,
         },
         createdAt: {
             field: 'created_at',
